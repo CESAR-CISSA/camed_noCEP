@@ -37,6 +37,7 @@ camed_noCEP/
     $ source venv/bin/activate
 
 ## 1. Execte as a python script:
+    $ export RUN=1                          # Change this value with your desired RUN value
     $ python3 camed_noCEP.py
 
 ## 2. Execte as a bash script:
