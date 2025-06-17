@@ -34,7 +34,7 @@ camed_noCEP/
 # How to execute
 
 ### Requirements:
-You must have a docker network running and configured in the project's dockerfile (We define the creation of the network in the execution script for redundancy purposes)
+You must have a docker network running and configured in the project's dockerfile (We define the creation of the network in the nmon script for redundancy purposes)
     
 ## Running
 
