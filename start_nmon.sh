@@ -3,7 +3,7 @@
 nmon -f -s 1 -c 140
 sleep 140s;
 
-# Create a Docker network for MQTT
+# Create a Docker network for MQTT  
 docker network create mqtt-net
 
 RUN=33  # This value has to be indentic to the one set into camed_noCEP.sh file
