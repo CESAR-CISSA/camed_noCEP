@@ -35,6 +35,9 @@ camed_noCEP/
 
     $ sudo su
     $ source venv/bin/activate
+    $ ./start_nmon.sh
+
+### Disclamer: Run nmon script in exclusive terminal with root privileges
 
 ## 1. Execte as a python script:
     $ export RUN=1                          # Change this value with your desired RUN value
