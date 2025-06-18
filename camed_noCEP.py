@@ -29,7 +29,7 @@ import subprocess
 
 IP_ATTACKER = '172.18.0.20' # Please insert the IP Attacker in case you have change it into ipsee
 MODEL_FILE_PATH = 'model/model.pickle'
-FILE_OUTPUT_CSV = '../experiments/'+os.environ['RUN']+'.model_output.csv'
+FILE_OUTPUT_CSV = 'experiments/'+os.environ['RUN']+'.model_output.csv'
 
 
 def load_model_and_scaler(path):
@@ -112,7 +112,7 @@ def main(iface, sport, dport):
 
 if __name__ == "__main__":
     manager = NetworkInterfaceManager()
-    command = "docker network ls | grep gaia | awk '{print \"br-\"$1}'"
+    command = "docker network ls | grep mqtt | awk '{print \"br-\"$1}'"
     selected_interface = subprocess.run(command, shell=True, capture_output=True, text=True, check=True)
     selected_interface = selected_interface.stdout.strip()
 
