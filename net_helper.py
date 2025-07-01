@@ -8,7 +8,6 @@ Net Helper
 Helper to select network interfaces
 for packet sniffing.
 
-Author: Fábio Chicout
 ======================================
 """
 
